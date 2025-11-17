@@ -25,7 +25,7 @@ services:
 
   frontend:
     image: 2300033639/2300033639-final-frontend:latest
-    container_name: react
+    container_name: reactapp
     ports:
       - "30031:80"
     depends_on:
